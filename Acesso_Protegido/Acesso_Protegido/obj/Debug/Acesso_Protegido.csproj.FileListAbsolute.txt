@@ -1,0 +1,7 @@
+C:\Users\leand\source\repos\Acesso_Protegido\Acesso_Protegido\bin\Debug\Acesso_Protegido.exe.config
+C:\Users\leand\source\repos\Acesso_Protegido\Acesso_Protegido\bin\Debug\Acesso_Protegido.exe
+C:\Users\leand\source\repos\Acesso_Protegido\Acesso_Protegido\bin\Debug\Acesso_Protegido.pdb
+C:\Users\leand\source\repos\Acesso_Protegido\Acesso_Protegido\obj\Debug\Acesso_Protegido.csprojResolveAssemblyReference.cache
+C:\Users\leand\source\repos\Acesso_Protegido\Acesso_Protegido\obj\Debug\Acesso_Protegido.csproj.CoreCompileInputs.cache
+C:\Users\leand\source\repos\Acesso_Protegido\Acesso_Protegido\obj\Debug\Acesso_Protegido.exe
+C:\Users\leand\source\repos\Acesso_Protegido\Acesso_Protegido\obj\Debug\Acesso_Protegido.pdb
