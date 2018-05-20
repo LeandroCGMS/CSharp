@@ -1,0 +1,10 @@
+C:\Users\leand\source\repos\ListBox e ComboBox\ListBox e ComboBox\bin\Debug\ListBox e ComboBox.exe.config
+C:\Users\leand\source\repos\ListBox e ComboBox\ListBox e ComboBox\bin\Debug\ListBox e ComboBox.exe
+C:\Users\leand\source\repos\ListBox e ComboBox\ListBox e ComboBox\bin\Debug\ListBox e ComboBox.pdb
+C:\Users\leand\source\repos\ListBox e ComboBox\ListBox e ComboBox\obj\Debug\ListBox e ComboBox.csprojResolveAssemblyReference.cache
+C:\Users\leand\source\repos\ListBox e ComboBox\ListBox e ComboBox\obj\Debug\ListBox_e_ComboBox.Form1.resources
+C:\Users\leand\source\repos\ListBox e ComboBox\ListBox e ComboBox\obj\Debug\ListBox_e_ComboBox.Properties.Resources.resources
+C:\Users\leand\source\repos\ListBox e ComboBox\ListBox e ComboBox\obj\Debug\ListBox e ComboBox.csproj.GenerateResource.Cache
+C:\Users\leand\source\repos\ListBox e ComboBox\ListBox e ComboBox\obj\Debug\ListBox e ComboBox.csproj.CoreCompileInputs.cache
+C:\Users\leand\source\repos\ListBox e ComboBox\ListBox e ComboBox\obj\Debug\ListBox e ComboBox.exe
+C:\Users\leand\source\repos\ListBox e ComboBox\ListBox e ComboBox\obj\Debug\ListBox e ComboBox.pdb
