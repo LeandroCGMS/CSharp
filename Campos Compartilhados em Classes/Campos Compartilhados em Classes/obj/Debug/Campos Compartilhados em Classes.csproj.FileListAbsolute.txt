@@ -1,0 +1,7 @@
+C:\Users\leand\source\repos\Campos Compartilhados em Classes\Campos Compartilhados em Classes\bin\Debug\Campos Compartilhados em Classes.exe.config
+C:\Users\leand\source\repos\Campos Compartilhados em Classes\Campos Compartilhados em Classes\bin\Debug\Campos Compartilhados em Classes.exe
+C:\Users\leand\source\repos\Campos Compartilhados em Classes\Campos Compartilhados em Classes\bin\Debug\Campos Compartilhados em Classes.pdb
+C:\Users\leand\source\repos\Campos Compartilhados em Classes\Campos Compartilhados em Classes\obj\Debug\Campos Compartilhados em Classes.csprojResolveAssemblyReference.cache
+C:\Users\leand\source\repos\Campos Compartilhados em Classes\Campos Compartilhados em Classes\obj\Debug\Campos Compartilhados em Classes.csproj.CoreCompileInputs.cache
+C:\Users\leand\source\repos\Campos Compartilhados em Classes\Campos Compartilhados em Classes\obj\Debug\Campos Compartilhados em Classes.exe
+C:\Users\leand\source\repos\Campos Compartilhados em Classes\Campos Compartilhados em Classes\obj\Debug\Campos Compartilhados em Classes.pdb
