@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="financeiroDataSet" targetNamespace="http://tempuri.org/financeiroDataSet1.xsd" xmlns:mstns="http://tempuri.org/financeiroDataSet1.xsd" xmlns="http://tempuri.org/financeiroDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="financeiroStringDeConexao" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="financeiroStringDeConexao (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DAL.Properties.Settings.GlobalReference.Default.financeiroStringDeConexao" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="caixaTableAdapter" GeneratorDataComponentClassName="caixaTableAdapter" Name="caixa" UserDataComponentName="caixaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="financeiroStringDeConexao (Settings)" DbObjectName="financeiro.caixa" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, numero_doc, descricao, valor, tipo, dt_cadastro FROM caixa</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="contas_pagarTableAdapter" GeneratorDataComponentClassName="contas_pagarTableAdapter" Name="contas_pagar" UserDataComponentName="contas_pagarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="financeiroStringDeConexao (Settings)" DbObjectName="financeiro.contas_pagar" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, numero_doc, descricao, parcela, vlr_parcela, vlr_compra, vlr_abatido, dt_compra, dt_cadastro, dt_vencimento, dt_pagamento, status FROM contas_pagar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="contas_receberTableAdapter" GeneratorDataComponentClassName="contas_receberTableAdapter" Name="contas_receber" UserDataComponentName="contas_receberTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="financeiroStringDeConexao (Settings)" DbObjectName="financeiro.contas_receber" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, documento, descricao, parcela, vlr_parcela, vlr_compra, vlr_abatido, dt_compra, dt_vencimento, dt_cadastro, status, dt_pagamento FROM contas_receber</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="usuariosTableAdapter" GeneratorDataComponentClassName="usuariosTableAdapter" Name="usuarios" UserDataComponentName="usuariosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="financeiroStringDeConexao (Settings)" DbObjectName="financeiro.usuarios" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, nome, login, senha, status, dt_cadastro FROM usuarios</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="financeiroDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="financeiroDataSet" msprop:Generator_UserDSName="financeiroDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="caixa" msprop:Generator_TableClassName="caixaDataTable" msprop:Generator_TableVarName="tablecaixa" msprop:Generator_TablePropName="caixa" msprop:Generator_RowDeletingName="caixaRowDeleting" msprop:Generator_RowChangingName="caixaRowChanging" msprop:Generator_RowEvHandlerName="caixaRowChangeEventHandler" msprop:Generator_RowDeletedName="caixaRowDeleted" msprop:Generator_UserTableName="caixa" msprop:Generator_RowChangedName="caixaRowChanged" msprop:Generator_RowEvArgName="caixaRowChangeEvent" msprop:Generator_RowClassName="caixaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contas_pagar" msprop:Generator_TableClassName="contas_pagarDataTable" msprop:Generator_TableVarName="tablecontas_pagar" msprop:Generator_TablePropName="contas_pagar" msprop:Generator_RowDeletingName="contas_pagarRowDeleting" msprop:Generator_RowChangingName="contas_pagarRowChanging" msprop:Generator_RowEvHandlerName="contas_pagarRowChangeEventHandler" msprop:Generator_RowDeletedName="contas_pagarRowDeleted" msprop:Generator_UserTableName="contas_pagar" msprop:Generator_RowChangedName="contas_pagarRowChanged" msprop:Generator_RowEvArgName="contas_pagarRowChangeEvent" msprop:Generator_RowClassName="contas_pagarRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contas_receber" msprop:Generator_TableClassName="contas_receberDataTable" msprop:Generator_TableVarName="tablecontas_receber" msprop:Generator_TablePropName="contas_receber" msprop:Generator_RowDeletingName="contas_receberRowDeleting" msprop:Generator_RowChangingName="contas_receberRowChanging" msprop:Generator_RowEvHandlerName="contas_receberRowChangeEventHandler" msprop:Generator_RowDeletedName="contas_receberRowDeleted" msprop:Generator_UserTableName="contas_receber" msprop:Generator_RowChangedName="contas_receberRowChanged" msprop:Generator_RowEvArgName="contas_receberRowChangeEvent" msprop:Generator_RowClassName="contas_receberRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="usuarios" msprop:Generator_TableClassName="usuariosDataTable" msprop:Generator_TableVarName="tableusuarios" msprop:Generator_TablePropName="usuarios" msprop:Generator_RowDeletingName="usuariosRowDeleting" msprop:Generator_RowChangingName="usuariosRowChanging" msprop:Generator_RowEvHandlerName="usuariosRowChangeEventHandler" msprop:Generator_RowDeletedName="usuariosRowDeleted" msprop:Generator_UserTableName="usuarios" msprop:Generator_RowChangedName="usuariosRowChanged" msprop:Generator_RowEvArgName="usuariosRowChangeEvent" msprop:Generator_RowClassName="usuariosRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

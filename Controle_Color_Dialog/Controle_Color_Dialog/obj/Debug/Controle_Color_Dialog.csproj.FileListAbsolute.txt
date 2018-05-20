@@ -1,0 +1,10 @@
+C:\Users\leand\source\repos\Controle_Color_Dialog\Controle_Color_Dialog\bin\Debug\Controle_Color_Dialog.exe.config
+C:\Users\leand\source\repos\Controle_Color_Dialog\Controle_Color_Dialog\bin\Debug\Controle_Color_Dialog.exe
+C:\Users\leand\source\repos\Controle_Color_Dialog\Controle_Color_Dialog\bin\Debug\Controle_Color_Dialog.pdb
+C:\Users\leand\source\repos\Controle_Color_Dialog\Controle_Color_Dialog\obj\Debug\Controle_Color_Dialog.csprojResolveAssemblyReference.cache
+C:\Users\leand\source\repos\Controle_Color_Dialog\Controle_Color_Dialog\obj\Debug\Controle_Color_Dialog.Form1.resources
+C:\Users\leand\source\repos\Controle_Color_Dialog\Controle_Color_Dialog\obj\Debug\Controle_Color_Dialog.Properties.Resources.resources
+C:\Users\leand\source\repos\Controle_Color_Dialog\Controle_Color_Dialog\obj\Debug\Controle_Color_Dialog.csproj.GenerateResource.Cache
+C:\Users\leand\source\repos\Controle_Color_Dialog\Controle_Color_Dialog\obj\Debug\Controle_Color_Dialog.csproj.CoreCompileInputs.cache
+C:\Users\leand\source\repos\Controle_Color_Dialog\Controle_Color_Dialog\obj\Debug\Controle_Color_Dialog.exe
+C:\Users\leand\source\repos\Controle_Color_Dialog\Controle_Color_Dialog\obj\Debug\Controle_Color_Dialog.pdb

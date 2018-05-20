@@ -1,0 +1,1 @@
+c:\users\leand\source\repos\ComplexStackPanel\ComplexStackPanel\ComplexStackPanel.csproj;x86

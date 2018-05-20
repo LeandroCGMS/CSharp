@@ -1,0 +1,1 @@
+c:\users\leand\source\repos\GridAndStackPanel\GridAndStackPanel\GridAndStackPanel.csproj;x86

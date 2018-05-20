@@ -1,0 +1,10 @@
+C:\Users\leand\source\repos\Controle TextBox\Controle TextBox\bin\Debug\Controle TextBox.exe.config
+C:\Users\leand\source\repos\Controle TextBox\Controle TextBox\bin\Debug\Controle TextBox.exe
+C:\Users\leand\source\repos\Controle TextBox\Controle TextBox\bin\Debug\Controle TextBox.pdb
+C:\Users\leand\source\repos\Controle TextBox\Controle TextBox\obj\Debug\Controle TextBox.csprojResolveAssemblyReference.cache
+C:\Users\leand\source\repos\Controle TextBox\Controle TextBox\obj\Debug\Controle_TextBox.Properties.Resources.resources
+C:\Users\leand\source\repos\Controle TextBox\Controle TextBox\obj\Debug\Controle TextBox.csproj.GenerateResource.Cache
+C:\Users\leand\source\repos\Controle TextBox\Controle TextBox\obj\Debug\Controle TextBox.csproj.CoreCompileInputs.cache
+C:\Users\leand\source\repos\Controle TextBox\Controle TextBox\obj\Debug\Controle TextBox.exe
+C:\Users\leand\source\repos\Controle TextBox\Controle TextBox\obj\Debug\Controle TextBox.pdb
+C:\Users\leand\source\repos\Controle TextBox\Controle TextBox\obj\Debug\Controle_TextBox.Controle_TextBox.resources
